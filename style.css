@@ -1,0 +1,112 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+   
+}
+
+.bodybox{
+    display: flex;
+    flex-direction: column;
+} 
+
+
+a {
+    color:white;
+}
+*{
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+}
+
+.header, .firstbit, .footer {
+    background-color: #1F2937;
+    
+}
+
+.header, .firstbit, .secondbit, .thirdbit, .fourthbit, .fifthbit, .footer{
+    padding:0px 100px;
+    display: flex;
+}
+
+.boldtext{
+font-size: 48px;
+font-weight: 900;
+color:#F9FAF8;
+}
+
+.notboldtext{
+    font-size: 18px;
+    color:#E5E7EB;
+
+}
+
+
+button, .fifthbit {
+    background-color: #3882F6;
+}
+.secondbit{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    display:flex;
+    justify-content: center;
+}
+
+.thirdbit{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    text-wrap: wrap;
+    gap:10px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+/* this will resize the images all around - need to seperate the images by classes */
+/* img{
+    width: 150px;
+    height:auto;
+} */
+
+.info{
+    max-width: 150px;
+}
+
+.fourthbit{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: light italic;
+    color:#1F2937;
+    padding: 50px;
+    flex-direction: column;
+    flex:1;
+}
+
+.header{
+    display:flex;
+    
+    
+
+}
+.listoflinks {
+    display:flex;
+    align-items: center;
+    flex:1;
+    justify-content: space-between;
+    margin-left:80px;
+    
+}
+
+
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: cenrer;
+    padding:20px;
+    color:white;
+}
