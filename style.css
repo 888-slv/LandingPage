@@ -31,76 +31,150 @@ a {
     display: flex;
 }
 
+.header{
+    display:flex;
+}
+.listoflinks {
+    display:flex;
+    align-items: center;
+    flex:1;
+    justify-content: flex-end;
+    gap:20px;
+    
+}
+
+
 .boldtext{
-font-size: 48px;
+font-size: 30px;
 font-weight: 900;
 color:#F9FAF8;
+margin:0px;
+padding:0px;
+flex:1;
+line-height: 1em;
+margin-bottom:-20px;
 }
 
 .notboldtext{
     font-size: 18px;
     color:#E5E7EB;
-
+    text-align: left;
 }
-
 
 button, .fifthbit {
     background-color: #3882F6;
+    color:white;
 }
+button{
+    padding: 5px 25px;
+    font-size:18px;
+    border-radius: 10px;
+    border:3px solid #3882F6;
+
+}
+
+
+.eagle{
+    min-width:100%;
+    padding-left: 30px;
+}
+.firstbit{
+    display:flex;
+    align-items:flex-end;
+    flex:1, 1, auto;
+    padding-bottom: 100px;
+}
+
+
+
 .secondbit{
     font-size: 36px;
     font-weight: 900;
     color:#1F2937;
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
+
 }
+    .info{
+        max-width: 150px;
+    }
+    .img{
+        width: 150px;
+        height:auto;
+        border-radius: 10px;
+        border:3px solid #3882F6;
+    } 
 
 .thirdbit{
     display: flex;
     flex-wrap: wrap;
     flex:1;
     text-wrap: wrap;
-    gap:10px;
+    gap:30px;
     text-align: center;
     justify-content: center;
     margin-bottom: 100px;
-    
 }
-/* this will resize the images all around - need to seperate the images by classes */
-/* img{
-    width: 150px;
-    height:auto;
-} */
 
-.info{
-    max-width: 150px;
-}
+
+
 
 .fourthbit{
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: light italic;
     color:#1F2937;
     padding: 50px;
+    display: flex;
     flex-direction: column;
-    flex:1;
-}
-
-.header{
-    display:flex;
-    
-    
-
-}
-.listoflinks {
-    display:flex;
+    justify-content: center;
     align-items: center;
-    flex:1;
-    justify-content: space-between;
-    margin-left:80px;
-    
+    text-align:start;
+}
+.longtext{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin-left:10%;
+    margin-right:10%;
+   
+}
+.signature{
+    font-size:26px;
+    font-weight: 600;
+    margin-left: 50%;
 }
 
+.fifthbit{
+    margin:100px;
+    padding:30px 60px;
+    border-radius: 10px;
+    border:3px solid #3882F6;
+
+    display:flex;
+    
+}
+.lefty{
+    display:flex;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-shrink: 1;
+
+}
+.call{
+    font-size: 24px;
+    font-weight: 700;
+    height: 80px;
+}
+.signupbutton{
+    border:3px solid white;
+    border-radius: 10px;
+    min-width: 120px;
+}
+.righty{
+    display:flex;
+    margin-left: 20%;
+    justify-content:stretch;
+    align-items: center;
+}
 
 
 .footer{
